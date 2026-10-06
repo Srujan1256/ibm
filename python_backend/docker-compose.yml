@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  harvestsaver-api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - ENVIRONMENT=production
+      - WHATSAPP_MOCK_MODE=true
+    restart: unless-stopped

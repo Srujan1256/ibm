@@ -1,0 +1,8 @@
+{
+  "name": "HarvestSaver AI",
+  "description": "WhatsApp-first AI advisor helping smallholder farmers save harvested crops from spoilage with shelf-life prediction, mandi intelligence, and cold-chain matchmaking.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
